@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: #d844a9;
+    background: #f272c9;
     color: #2d773e;
     margin: 0;
     padding: 0;
@@ -41,7 +41,7 @@ body {
   }
  
   .no-tours {
-    color: #8f75ec;
+    color: #5e49ad;
   }
  
   /* Gallery Styles */
@@ -97,7 +97,7 @@ body {
   .read-more {
     background: transparent;
     border: none;
-    color: #ac4fdb;
+    color: #f3f4a7;
     cursor: pointer;
     padding: 0;
     margin-left: 5px;
@@ -109,7 +109,7 @@ body {
     margin: 1rem auto 0;
     padding: 0.5rem;
     background: transparent;
-    color: #eccd43;
+    color: #45cc98;
     border: 1px solid #4bc379;
     border-radius: 4px;
     cursor: pointer;
@@ -117,6 +117,6 @@ body {
   }
  
   .remove-btn:hover {
-    background: #36a13d;
-    color: white;
+    background: #a91e1e;
+    color: rgb(248, 237, 237);
   }
