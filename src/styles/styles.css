@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #d844a9;
+    color: #2d773e;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+ 
+  .app {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+ 
+  h1 {
+    font-size: 2.5rem;
+    color: #0c3f42;
+    margin-bottom: 1rem;
+  }
+ 
+  h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #66c3f9;
+    margin: 0.5rem auto;
+  }
+ 
+  /* Loading and Error States */
+  .loading,
+  .error,
+  .no-tours {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+ 
+  .error {
+    color: #f71e1e;
+  }
+ 
+  .no-tours {
+    color: #8f75ec;
+  }
+ 
+  /* Gallery Styles */
+  .gallery {
+    display: grid;
+    gap: 2rem;
+  }
+ 
+  /* Tour Card Styles */
+  .tour-card {
+    background: rgb(71, 74, 4);
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(190, 194, 179, 0.1);
+    overflow: hidden;
+    transition: all 0.3s linear;
+  }
+ 
+  .tour-card:hover {
+    box-shadow: 0 5px 15px rgba(57, 19, 19, 0.2);
+    transform: translateY(-5px);
+  }
+ 
+  .tour-card img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+  }
+ 
+  .tour-info {
+    padding: 1.5rem;
+  }
+ 
+  .tour-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+ 
+  .tour-header h3 {
+    margin: 0;
+    color: #15e0d6;
+  }
+ 
+  .price {
+    background: #ebf7ff;
+    color: #49a6e9;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+ 
+  .read-more {
+    background: transparent;
+    border: none;
+    color: #ac4fdb;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 5px;
+  }
+ 
+  .remove-btn {
+    display: block;
+    width: 200px;
+    margin: 1rem auto 0;
+    padding: 0.5rem;
+    background: transparent;
+    color: #eccd43;
+    border: 1px solid #4bc379;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+ 
+  .remove-btn:hover {
+    background: #36a13d;
+    color: white;
+  }

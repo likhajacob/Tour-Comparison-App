@@ -67,8 +67,8 @@ const Gallery = ({tours, setTours, onRemove}) => {
                 {tours.map((tour) => (
                     <TourCard
                         key={tour.id}
-                        {...tour} // Spread operator to pass all tour properties
-                        onRemove={onRemove} // Pass onRemove function
+                        {...tour} 
+                        onRemove={onRemove} 
                     />
                 ))}
             </section>
