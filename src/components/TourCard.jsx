@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 function TourCard({ id, name, info, image, price, onRemove }) {
   const [showMore, setShowMore] = useState(false);
-
-  return (
+//showing details
+  return (//creating tour card
     <div className="tour-card">
       <img src={image} alt={name} className="tour-img" />
       <div className="tour-details">
